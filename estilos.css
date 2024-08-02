@@ -1,0 +1,76 @@
+/* Estilo para el cuerpo y la página */
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 186, 244, 0.8);
+    background-size: cover; 
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo para los contenedores de formularios */
+.form-container {
+    max-width: 400px;
+    width: 100%; 
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.8); 
+    box-shadow: 0 4px 8px rgba(42, 1, 53, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.form-container h2 {
+    margin-bottom: 1.5rem;
+    color: #2c003a;
+}
+
+.form-container .form-floating {
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.form-container input[type="email"],
+.form-container input[type="password"],
+.form-container input[type="text"] {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-container button[type="submit"] {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #b82ff8;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.form-container button[type="submit"]:hover {
+    background-color: #8b1eca;
+}
+
+.form-container p {
+    margin-top: 1rem;
+    color: #333;
+}
+
+.form-container a {
+    color: #d743eb;
+    text-decoration: none;
+}
+
+.form-container a:hover {
+    text-decoration: underline;
+}
+
+/* Agrega espacio en el enlace */
+.form-container .form-inline {
+    margin-top: 1rem;
+}

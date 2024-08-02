@@ -1,0 +1,67 @@
+/* Estilo para el fondo de toda la página */
+body {
+    background-color: #eaeaea; /* Color de fondo */
+}
+
+/* Estilo para la barra de navegación */
+.navbar {
+    background-color: #ffcc80 !important; /* Color de fondo */
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: #333 !important;/* Color del texto */
+    font-family: 'Arial Black', sans-serif; /* Cambiar la fuente a Arial Black */
+    font-weight: bold; /* Hacer el texto negrita */
+    border-radius: 10px;  
+}
+
+/* Estilo para los botones de las categorías */
+.navbar-nav .nav-link {
+    font-size: 1.1rem; /* Aumenta el tamaño de la fuente */
+    padding: 8px 16px; /* Aumenta el relleno */
+}
+
+/* Estilo para la sección de productos */
+main {
+    padding: 50px 0; /* Relleno superior e inferior */
+}
+.carrito-icon-container {
+    width: 30px; /* Ancho deseado */
+    height: 30px; /* Altura deseada */
+    overflow: hidden; /* Oculta cualquier parte de la imagen que se salga de los límites del contenedor */
+}
+
+.carrito-icon {
+    width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+    height: 100%; /* Mantiene la proporción de la imagen */
+}
+
+
+
+/* Estilo para los productos */
+.card {
+    background-color: #fff; /* Color de fondo de las tarjetas */
+    margin-bottom: 20px; /* Espacio entre tarjetas */
+    border-radius: 10px; /* Bordes redondeados */
+    overflow: hidden; /* Ocultar contenido que desborde */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+.card img {
+    height: 200px; /* Altura de las imágenes */
+    object-fit: cover; /* Ajuste de imagen */
+}
+
+.card p {
+    margin-bottom: 0; /* Eliminar margen inferior */
+}
+
+/* Estilo para el footer */
+footer {
+    background-color: #f8f9fa; /* Color de fondo */
+    padding: 20px 0; /* Relleno superior e inferior */
+}
+
+
+
